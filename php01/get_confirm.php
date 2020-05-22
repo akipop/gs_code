@@ -12,7 +12,7 @@ $mail = $_GET["mail"];
 </head>
 <body>
 お名前：<?php echo $name; ?>
-Mail：<?php echo $mail; ?>
+Mail：<?=$mail;?>
 <ul>
 <li><a href="index.php">index.php</a></li>
 </ul>
